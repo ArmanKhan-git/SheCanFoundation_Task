@@ -12,9 +12,9 @@ const LogInPage=()=> {
   const [showPassword,setshowPassword]=useState(false)
 
   const [formData,setFormData]=useState({
-    fullName:"",
-    email:"",
-    password:""
+    fullName:"User123",
+    email:"abc@gmail.com",
+    password:"1234567"
   })
 
   const validateForm=()=>{
